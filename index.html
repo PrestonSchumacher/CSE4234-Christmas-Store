@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+	<link rel="stylesheet" href="style.css">
+		<!-- adding tailwind cdn -->
+	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body style="margin:10px;padding:5px">
+	<header role = "banner" class="banner"> 
+		<img src="light.jpeg" alt="Christmas Light" style="width:100%;height:50px;">
+		<h1 class="headerTitle">Welcome to Our Christmas Store</h1> 
+		<p style='font-size:12px;text-align:center;'>This page should be tried in safari, chrome or Mozila.</p> 
+	</header> 
+	<nav>
+		<ul class="navbar">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="contact.html">Contact Us</a></li>
+			<li> <a href="deal.html">Today's Deal</a></li>
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="contact.html">Contact Us</a> </li> -->
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="deal.html">Today's Deal</a></li> -->
+		</ul>
+	</nav> 
+
+<section>
+<h1 style="text-align:center"> Welcome to my site. Please come in and stay awhile.</h1>
+<!-- 1. image is in the same folder - relative path -->
+<div id="divLight">
+	<img src="light.jpeg" alt="Christmas Light"/>
+</div>
+
+<!-- alternatives ways to link image
+1. from a website -->
+<!-- <img src="https://www.qries.com/images/banner_logo.png" alt="Christmas Light" style="width:500px;height:600px;"> 2. image is in different folder - relative path (child directory) -->
+<!-- <img src="images/light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+<!-- 3. image is in different folder - relative path (parent directory) -->
+<!-- <img src="./../light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+<!-- 4. absolute path -->
+<!-- <img src="file:///Users/nasheennur/Desktop/Courses/CSE%204234:5234/demos/lab_1/light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+
+
+
+
+
+
+
+<h2 class='headerTitle'> Product Categories </h2>
+<div class="products">
+	<!-- Card-1 -->
+	<div class="card">
+		<img style="width:100%" src="https://www.newhomesource.com/learn/wp-content/uploads/2020/10/rustic-christmas.jpg.webp" alt="Decoration">
+		<div class="cardDetails">
+		  <div style="font-weight:bold;font-size:larger;margin-bottom:8px">Decoration</div>
+		  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+		  </p>
+		  <span class="price">$100-$500</span>
+
+	</div>
+		
+	  </div>
+	  <!-- card-2 -->
+	<div class="card">
+		<img style="width:100%" src="https://images.immediate.co.uk/production/volatile/sites/30/2022/09/gingerbread-house-92008e2.jpg?quality=90&webp=true&resize=375,341" alt="Decoration">
+		<div class="cardDetails">
+		  <div style="font-weight:bold;font-size:larger;margin-bottom:8px">Recipes</div>
+		  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+		  </p>
+		  <span class="price">$100-$500</span>
+
+		</div>
+		
+	  </div>
+	  <!-- card-3 -->
+	<div class="card">
+		<img style="width:100%" src="https://media.istockphoto.com/id/1069600900/photo/girls-opening-christmas-gifts.jpg?s=1024x1024&w=is&k=20&c=SlxbM82MgIv-NgMtjgw4qG7C6JXwWHQeviy-mvD34D0=" alt="Decoration">
+		<div class="cardDetails">
+		  <div style="font-weight:bold;font-size:larger;margin-bottom:8px">Toys</div>
+		  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base">
+			ores et perferendis eaque, exercitationem praesentium nihil.
+		  </p>
+		  <span class="price">$100-$500</span>
+
+		</div>
+		
+	  </div>
+	  <!-- card-4 -->
+	<div class="card">
+		<img style="width:100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHm6gCdgPN5bkVhIA2O-hIM-wLR707MyLXQ&usqp=CAU" alt="Decoration">
+		<div class="cardDetails">
+		  <div style="font-weight:bold;font-size:larger;margin-bottom:8px">Christmas Cakes</div>
+		  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base">
+			praesentium nihil.
+		  </p>
+		  <span class="price">$100-$500</span>
+
+		</div>
+		
+	  </div>
+	
+	
+	
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+<p> 
+	If you aren’t completely satisfied with everything you buy from my site, you can return it for a full refund. 
+	<br/>
+	<em>No questions asked!</em>
+</p>
+
+
+
+
+ </section >
+ <!-- <aside>
+	<p> This is the aside part of the web page. </p>
+	<div style="width:100%;"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=150%20W%20University%20Blvd,%20Melbourne,%20FL%2032901+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>
+</aside >  -->
+	<footer style="text-align:center"> &copy;2023 Nasheen Nur</footer>
+ <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+
+	
+
+</body>
+</html>

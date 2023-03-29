@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:10px;padding:5px">
+	<header role = "banner" class="banner"> 
+		<img src="light.jpeg" alt="Christmas Light" style="width:100%;height:50px;">
+		<h1 class="headerTitle">Welcome to Our Christmas Store</h1> 
+		<p style='font-size:12px;text-align:center;'>This page should be tried in safari, chrome or Mozila.</p> 
+	</header> 
+	<nav>
+		<ul class="navbar">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="contact.html">Contact Us</a></li>
+			<li> <a href="deal.html">Today's Deal</a></li>
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="contact.html">Contact Us</a> </li> -->
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="deal.html">Today's Deal</a></li> -->
+		</ul>
+	</nav>  
+	<div>
+		<h1 class="text-center text-blue-700 text-2xl font-bold my-2" style="text-align:center;">Contact Us</h1>
+		<div class="container bg-auto bg-cover bg-light bg-no-repeat min-w-full">
+			<form id="contactForm" class='p-3 container mx-auto w-1/2'  >
+				<label class="inline-block text-white first-letter:text-7xl first-letter:font-bold" for="fname">First name:</label>
+				<input class="border-4 w-3/4 hover:bg-green-100 focus:outline-none focus:ring focus:ring-blue-400 my-2" type="text" id="fname" name="fname" value="John" size=100/><br>
+				<label class="inline-block text-white first-letter:text-7xl first-letter:font-bold" for="lname">Last name:</label>
+				<input class="border-4 w-3/4 hover:bg-green-100 focus:outline-none focus:ring focus:ring-blue-400 my-2" type="text" id="lname" name="lname" value="Doe" maxlength=50/><br><br>
+				<label class="inline-block text-white first-letter:text-7xl first-letter:font-bold" for="lname">Email:</label>
+				<input class="border-4 w-3/4 hover:bg-green-100 focus:outline-none focus:ring focus:ring-blue-400 my-2" type="email" id="email" name="email" value="xyz@gmail.com" maxlength=50/><br><br>
+				<label class="inline-block text-white first-letter:text-7xl first-letter:font-bold" for="msg">Your message:</label><br>
+				<textarea class=" border-4 w-3/4 hover:bg-green-100 focus:outline-none focus:ring focus:ring-blue-400" rows="10" cols="50"> Type here...</textarea>
+				<br>
+				<input id="myBtn" class="ml-auto mr-auto rounded-xl text-white font-bold bg-orange-400 ring-2 p-2 my-2" type="submit" value="Submit">
+		
+			</form> 
+		</div>
+		
+	</div> 
+
+
+<!-- The Modal -->
+<div id="myModal" style="display:none;" class="modal border-2 rounded-xl container mx-64 hidden fixed z-10 left-0 top-0 w-1/2 h-32 my-56  bg-teal-900 ">
+
+  <!-- Modal content -->
+  <div class="border-2 border-emerald-900 rounded-xl p-3 bg-emerald-100 container mx-auto mt-6 my-1 h-auto ">
+    <span class="close border-2 rounded-xl border-red-900 bg-red-700 text-white font-bold p-1 float-right">X</span>
+    <p class="text-2xl font-bold text-center pb-4 text-green-900">Your Information has been submitted</p>
+  </div>
+
+</div>
+
+ 
+	
+	
+<script src="form.js"></script>
+<footer style="text-align:center;"> &copy;2023 Nasheen Nur</footer>
+	 <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+	
+
+</body>
+</html>

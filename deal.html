@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+	<link rel="stylesheet" href="style.css">
+	<!-- adding tailwind cdn -->
+	<!--<script src="https://cdn.tailwindcss.com"></script>-->
+	<script type="module" src="grid.js"></script>
+	<script type="module" src="card.js"></script>
+	<script type="module" src="script.js"></script>
+</head>
+
+<body class="total">
+	<header role = "banner" class="banner"> 
+		<img src="light.jpeg" alt="Christmas Light" style="width:100%;height:50px;">
+		<h1 class="headerTitle">Welcome to Our Christmas Store</h1> 
+		<p style='font-size:12px;text-align:center;'>This page should be tried in safari, chrome or Mozila.</p> 
+	</header> 
+	<nav>
+		<ul class="navbar">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="contact.html">Contact Us</a></li>
+			<li> <a href="deal.html">Today's Deal</a></li>
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="contact.html">Contact Us</a> </li> -->
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="deal.html">Today's Deal</a></li> -->
+		</ul>
+	</nav> 
+
+	<div class="gridStyle"></div>
+
+
+
+	<section  class='container mx-auto my-5 snap-center'>
+		<h1 style="font-size:32px;font-weight:bold">Best Holiday deals</h1>
+		<table>
+			<thead>
+			  <tr>
+				<th>Name of Item</th>
+				<th>Original Price</th>
+				<th>Today's Deal</th>
+			  </tr>
+			</thead>
+			<tbody id="table-body"></tbody>
+		</table>
+
+
+		<h1 style='margin:8px auto;font-size: 1.25rem;line-height: 1.75rem;font-weight: bold;'>Term and Conditions</h1>
+			<article  style="margin:3px;border:1px solid blue;overflow-x: hidden;height:200px;">
+				 mollitia quisquam doloribus quia iusto dicta. 
+			</article>
+		
+		
+	</section> 
+
+	
+	
+	
+	<script src="script.js"></script>
+	<footer style="text-align:center"> &copy;2023 Nasheen Nur</footer>
+	 <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+	
+
+</body>
+</html>
